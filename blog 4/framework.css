@@ -1,0 +1,180 @@
+/* ===================== RESET ===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===================== HEADER ===================== */
+header {
+  background-color: #c91414;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.topbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.logo span {
+  font-weight: 900;
+}
+
+.slogan {
+  font-size: 0.9rem;
+  margin-top: -4px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right input {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.right nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.right nav span {
+  color: #ffcccc;
+}
+
+/* ===================== CONTEÚDO ===================== */
+main {
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.quote {
+  font-size: 5rem;
+  color: #c91414;
+  font-weight: bold;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-top: 0.5rem;
+  color: #111827;
+}
+
+.meta {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.meta strong {
+  color: #c91414;
+}
+
+.badge {
+  background-color: #c91414;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
+
+.desc {
+  margin-top: 1rem;
+  color: #374151;
+  font-size: 1rem;
+}
+
+.continue {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.continue:hover {
+  text-decoration: underline;
+}
+
+/* ===================== CATEGORIAS ===================== */
+.categorias {
+  border-top: 2px solid #c91414;
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+
+.categorias h3 {
+  color: #444;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.categorias ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.categorias li {
+  border: 1px solid #fca5a5;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #c91414;
+  font-weight: 500;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.categorias li span {
+  background: #fee2e2;
+  color: #c91414;
+  font-size: 0.7rem;
+  padding: 1px 5px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.ver {
+  display: block;
+  text-align: right;
+  font-size: 0.9rem;
+  color: #2563eb;
+  text-decoration: none;
+  margin-top: 0.8rem
