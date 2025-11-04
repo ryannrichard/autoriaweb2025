@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css7.css">
+    <title> Ryann Richard - PORTFÓLIO</title>
+</head>
+<body class="body">
+    <header class="cabeca letras">
+        <section class="cabecalho">
+            <div>Estudos de Casos</div>
+            <div>Trabalhos</div>
+            <div>Entre em contato</div>
+            <section class="img-cabeca">
+                <img src="assets/img/LinkedIn.png" alt="">
+                <img src="assets/img/Behance.png" alt="">
+                <img src="assets/img/Twitter.png" alt="">
+            </section>
+        </section>
+    </header>
+    <main class="letras">
+        Sou um híbrido raro: Design Systems + Engenharia de Produto. Entrego de ponta a ponta — da descoberta à produção — com métricas de negócio na cabeceira e DX/UX no detalhe. Tradução simultânea entre PMs, Design, Front, Back e Data. Sem teatrinho: shippo, meço, repito.
+    </main>
+</body>
+</html>
